@@ -1,0 +1,40 @@
+﻿@model CleanWishesMaid.Models.CleanWishesMaidModel
+
+@*<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+        <img src="~/img/clean-wishes-maid.jpg" style="padding:15px;margin:15px;width:20%" class="navbar-brand" />
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span> Menu
+        </button>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item @Model.Home"><a href="../Home" class="nav-link">Home</a></li>
+            <li class="nav-item @Model.About"><a href="../About" class="nav-link">About</a></li>
+            <li class="nav-item @Model.Services"><a href="../Services" class="nav-link">Services</a></li>
+            <li class="nav-item @Model.Gallery"><a href="../Gallery" class="nav-link">Gallery</a></li>
+            <li class="nav-item @Model.Pricing"><a href="../Pricing" class="nav-link">Pricing</a></li>
+            <li class="nav-item @Model.Contact"><a href="../Contact" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
+</nav>*@
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            @*<a class="navbar-brand" href="index.html"><span class="flaticon-pawprint-1 mr-2"></span>Pet Care</a>*@
+            <img id="logo" src="~/img/clean-wishes-maid.jpg" class="navbar-brand" />
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item @Model.Home"><a href="../Home" class="nav-link">Home</a></li>
+                    <li class="nav-item @Model.About"><a href="../About" class="nav-link">About</a></li>
+                    @*<li class="nav-item @Model.Veterinarian"><a href="../Veterinarian" class="nav-link">Veterinarian</a></li>*@
+                    <li class="nav-item @Model.Services"><a href="../Services" class="nav-link">Services</a></li>
+                    <li class="nav-item @Model.Gallery"><a href="../Gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item @Model.Pricing"><a href="../Pricing" class="nav-link">Pricing</a></li>
+                
+                    <li class="nav-item @Model.Contact"><a href="../Contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
